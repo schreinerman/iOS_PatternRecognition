@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3232BE021C5A6EFC0002ECD3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232BE011C5A6EFC0002ECD3 /* background.png */; };
+		3232BE041C5A70480002ECD3 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3232BE031C5A70480002ECD3 /* background2.png */; };
+		3238F7DE1C56981B00540189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238F7DD1C56981B00540189 /* main.m */; };
+		3238F7E11C56981B00540189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238F7E01C56981B00540189 /* AppDelegate.m */; };
+		3238F7E41C56981B00540189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238F7E31C56981B00540189 /* ViewController.m */; };
+		3238F7E71C56981B00540189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3238F7E51C56981B00540189 /* Main.storyboard */; };
+		3238F7E91C56981B00540189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3238F7E81C56981B00540189 /* Assets.xcassets */; };
+		3238F7EC1C56981B00540189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3238F7EA1C56981B00540189 /* LaunchScreen.storyboard */; };
+		3238F7F71C56981B00540189 /* Fm_Pattern_RecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238F7F61C56981B00540189 /* Fm_Pattern_RecognitionTests.m */; };
+		3238F8021C56981B00540189 /* Fm_Pattern_RecognitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238F8011C56981B00540189 /* Fm_Pattern_RecognitionUITests.m */; };
+		3238F81D1C56985F00540189 /* sym255.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F80F1C56985F00540189 /* sym255.png */; };
+		3238F81E1C56985F00540189 /* sym09.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8101C56985F00540189 /* sym09.png */; };
+		3238F81F1C56985F00540189 /* sym08.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8111C56985F00540189 /* sym08.png */; };
+		3238F8201C56985F00540189 /* sym07.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8121C56985F00540189 /* sym07.png */; };
+		3238F8211C56985F00540189 /* sym06.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8131C56985F00540189 /* sym06.png */; };
+		3238F8221C56985F00540189 /* sym05.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8141C56985F00540189 /* sym05.png */; };
+		3238F8231C56985F00540189 /* sym04.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8151C56985F00540189 /* sym04.png */; };
+		3238F8241C56985F00540189 /* sym03.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8161C56985F00540189 /* sym03.png */; };
+		3238F8251C56985F00540189 /* sym02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8171C56985F00540189 /* sym02.png */; };
+		3238F8261C56985F00540189 /* sym01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8181C56985F00540189 /* sym01.png */; };
+		3238F8271C56985F00540189 /* sym00.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8191C56985F00540189 /* sym00.png */; };
+		3238F8281C56985F00540189 /* wheeltop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F81A1C56985F00540189 /* wheeltop.png */; };
+		3238F8291C56985F00540189 /* wheelbtm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F81B1C56985F00540189 /* wheelbtm.png */; };
+		3238F82A1C56985F00540189 /* wheelbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F81C1C56985F00540189 /* wheelbg.png */; };
+		3238F8351C57FABC00540189 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238F8341C57FABC00540189 /* CoreBluetooth.framework */; };
+		3238F8371C57FC2200540189 /* Screen Shot 2016-01-26 at 20.08.43.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238F8361C57FC2200540189 /* Screen Shot 2016-01-26 at 20.08.43.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3238F7F31C56981B00540189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3238F7D11C56981B00540189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3238F7D81C56981B00540189;
+			remoteInfo = "Fm Pattern Recognition";
+		};
+		3238F7FE1C56981B00540189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3238F7D11C56981B00540189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3238F7D81C56981B00540189;
+			remoteInfo = "Fm Pattern Recognition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3232BE011C5A6EFC0002ECD3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		3232BE031C5A70480002ECD3 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		3238F7D91C56981B00540189 /* Fm Pattern Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fm Pattern Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3238F7DD1C56981B00540189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3238F7DF1C56981B00540189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3238F7E01C56981B00540189 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3238F7E21C56981B00540189 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3238F7E31C56981B00540189 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3238F7E61C56981B00540189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3238F7E81C56981B00540189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3238F7EB1C56981B00540189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3238F7ED1C56981B00540189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3238F7F21C56981B00540189 /* Fm Pattern RecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fm Pattern RecognitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3238F7F61C56981B00540189 /* Fm_Pattern_RecognitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fm_Pattern_RecognitionTests.m; sourceTree = "<group>"; };
+		3238F7F81C56981B00540189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3238F7FD1C56981B00540189 /* Fm Pattern RecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fm Pattern RecognitionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3238F8011C56981B00540189 /* Fm_Pattern_RecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fm_Pattern_RecognitionUITests.m; sourceTree = "<group>"; };
+		3238F8031C56981B00540189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3238F80F1C56985F00540189 /* sym255.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym255.png; sourceTree = "<group>"; };
+		3238F8101C56985F00540189 /* sym09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym09.png; sourceTree = "<group>"; };
+		3238F8111C56985F00540189 /* sym08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym08.png; sourceTree = "<group>"; };
+		3238F8121C56985F00540189 /* sym07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym07.png; sourceTree = "<group>"; };
+		3238F8131C56985F00540189 /* sym06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym06.png; sourceTree = "<group>"; };
+		3238F8141C56985F00540189 /* sym05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym05.png; sourceTree = "<group>"; };
+		3238F8151C56985F00540189 /* sym04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym04.png; sourceTree = "<group>"; };
+		3238F8161C56985F00540189 /* sym03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym03.png; sourceTree = "<group>"; };
+		3238F8171C56985F00540189 /* sym02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym02.png; sourceTree = "<group>"; };
+		3238F8181C56985F00540189 /* sym01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym01.png; sourceTree = "<group>"; };
+		3238F8191C56985F00540189 /* sym00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sym00.png; sourceTree = "<group>"; };
+		3238F81A1C56985F00540189 /* wheeltop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheeltop.png; sourceTree = "<group>"; };
+		3238F81B1C56985F00540189 /* wheelbtm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheelbtm.png; sourceTree = "<group>"; };
+		3238F81C1C56985F00540189 /* wheelbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheelbg.png; sourceTree = "<group>"; };
+		3238F8341C57FABC00540189 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3238F8361C57FC2200540189 /* Screen Shot 2016-01-26 at 20.08.43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-01-26 at 20.08.43.png"; sourceTree = "<group>"; };
+		329F7CBB1C6398D300CA7FB5 /* Fm Pattern Recognition.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Fm Pattern Recognition.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3238F7D61C56981B00540189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238F8351C57FABC00540189 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3238F7EF1C56981B00540189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3238F7FA1C56981B00540189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3238F7D01C56981B00540189 = {
+			isa = PBXGroup;
+			children = (
+				3238F8341C57FABC00540189 /* CoreBluetooth.framework */,
+				3238F7DB1C56981B00540189 /* Fm Pattern Recognition */,
+				3238F7F51C56981B00540189 /* Fm Pattern RecognitionTests */,
+				3238F8001C56981B00540189 /* Fm Pattern RecognitionUITests */,
+				3238F7DA1C56981B00540189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3238F7DA1C56981B00540189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3238F7D91C56981B00540189 /* Fm Pattern Recognition.app */,
+				3238F7F21C56981B00540189 /* Fm Pattern RecognitionTests.xctest */,
+				3238F7FD1C56981B00540189 /* Fm Pattern RecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3238F7DB1C56981B00540189 /* Fm Pattern Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				329F7CBB1C6398D300CA7FB5 /* Fm Pattern Recognition.entitlements */,
+				3238F7DF1C56981B00540189 /* AppDelegate.h */,
+				3238F7E01C56981B00540189 /* AppDelegate.m */,
+				3238F7E21C56981B00540189 /* ViewController.h */,
+				3238F7E31C56981B00540189 /* ViewController.m */,
+				3238F7E51C56981B00540189 /* Main.storyboard */,
+				3238F7E81C56981B00540189 /* Assets.xcassets */,
+				3238F7EA1C56981B00540189 /* LaunchScreen.storyboard */,
+				3238F7ED1C56981B00540189 /* Info.plist */,
+				3238F7DC1C56981B00540189 /* Supporting Files */,
+			);
+			path = "Fm Pattern Recognition";
+			sourceTree = "<group>";
+		};
+		3238F7DC1C56981B00540189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3232BE031C5A70480002ECD3 /* background2.png */,
+				3238F8361C57FC2200540189 /* Screen Shot 2016-01-26 at 20.08.43.png */,
+				3232BE011C5A6EFC0002ECD3 /* background.png */,
+				3238F80F1C56985F00540189 /* sym255.png */,
+				3238F8101C56985F00540189 /* sym09.png */,
+				3238F8111C56985F00540189 /* sym08.png */,
+				3238F8121C56985F00540189 /* sym07.png */,
+				3238F8131C56985F00540189 /* sym06.png */,
+				3238F8141C56985F00540189 /* sym05.png */,
+				3238F8151C56985F00540189 /* sym04.png */,
+				3238F8161C56985F00540189 /* sym03.png */,
+				3238F8171C56985F00540189 /* sym02.png */,
+				3238F8181C56985F00540189 /* sym01.png */,
+				3238F8191C56985F00540189 /* sym00.png */,
+				3238F81A1C56985F00540189 /* wheeltop.png */,
+				3238F81B1C56985F00540189 /* wheelbtm.png */,
+				3238F81C1C56985F00540189 /* wheelbg.png */,
+				3238F7DD1C56981B00540189 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3238F7F51C56981B00540189 /* Fm Pattern RecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3238F7F61C56981B00540189 /* Fm_Pattern_RecognitionTests.m */,
+				3238F7F81C56981B00540189 /* Info.plist */,
+			);
+			path = "Fm Pattern RecognitionTests";
+			sourceTree = "<group>";
+		};
+		3238F8001C56981B00540189 /* Fm Pattern RecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3238F8011C56981B00540189 /* Fm_Pattern_RecognitionUITests.m */,
+				3238F8031C56981B00540189 /* Info.plist */,
+			);
+			path = "Fm Pattern RecognitionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3238F7D81C56981B00540189 /* Fm Pattern Recognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3238F8061C56981B00540189 /* Build configuration list for PBXNativeTarget "Fm Pattern Recognition" */;
+			buildPhases = (
+				3238F7D51C56981B00540189 /* Sources */,
+				3238F7D61C56981B00540189 /* Frameworks */,
+				3238F7D71C56981B00540189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fm Pattern Recognition";
+			productName = "Fm Pattern Recognition";
+			productReference = 3238F7D91C56981B00540189 /* Fm Pattern Recognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3238F7F11C56981B00540189 /* Fm Pattern RecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3238F8091C56981B00540189 /* Build configuration list for PBXNativeTarget "Fm Pattern RecognitionTests" */;
+			buildPhases = (
+				3238F7EE1C56981B00540189 /* Sources */,
+				3238F7EF1C56981B00540189 /* Frameworks */,
+				3238F7F01C56981B00540189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3238F7F41C56981B00540189 /* PBXTargetDependency */,
+			);
+			name = "Fm Pattern RecognitionTests";
+			productName = "Fm Pattern RecognitionTests";
+			productReference = 3238F7F21C56981B00540189 /* Fm Pattern RecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3238F7FC1C56981B00540189 /* Fm Pattern RecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3238F80C1C56981B00540189 /* Build configuration list for PBXNativeTarget "Fm Pattern RecognitionUITests" */;
+			buildPhases = (
+				3238F7F91C56981B00540189 /* Sources */,
+				3238F7FA1C56981B00540189 /* Frameworks */,
+				3238F7FB1C56981B00540189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3238F7FF1C56981B00540189 /* PBXTargetDependency */,
+			);
+			name = "Fm Pattern RecognitionUITests";
+			productName = "Fm Pattern RecognitionUITests";
+			productReference = 3238F7FD1C56981B00540189 /* Fm Pattern RecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3238F7D11C56981B00540189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "io-expert.com";
+				TargetAttributes = {
+					3238F7D81C56981B00540189 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EM2S36PWGQ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+					3238F7F11C56981B00540189 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3238F7D81C56981B00540189;
+					};
+					3238F7FC1C56981B00540189 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3238F7D81C56981B00540189;
+					};
+				};
+			};
+			buildConfigurationList = 3238F7D41C56981B00540189 /* Build configuration list for PBXProject "Fm Pattern Recognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3238F7D01C56981B00540189;
+			productRefGroup = 3238F7DA1C56981B00540189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3238F7D81C56981B00540189 /* Fm Pattern Recognition */,
+				3238F7F11C56981B00540189 /* Fm Pattern RecognitionTests */,
+				3238F7FC1C56981B00540189 /* Fm Pattern RecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3238F7D71C56981B00540189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238F8201C56985F00540189 /* sym07.png in Resources */,
+				3238F8221C56985F00540189 /* sym05.png in Resources */,
+				3238F81E1C56985F00540189 /* sym09.png in Resources */,
+				3238F81F1C56985F00540189 /* sym08.png in Resources */,
+				3238F82A1C56985F00540189 /* wheelbg.png in Resources */,
+				3238F8371C57FC2200540189 /* Screen Shot 2016-01-26 at 20.08.43.png in Resources */,
+				3238F8241C56985F00540189 /* sym03.png in Resources */,
+				3238F8281C56985F00540189 /* wheeltop.png in Resources */,
+				3238F8211C56985F00540189 /* sym06.png in Resources */,
+				3238F8291C56985F00540189 /* wheelbtm.png in Resources */,
+				3238F8231C56985F00540189 /* sym04.png in Resources */,
+				3232BE021C5A6EFC0002ECD3 /* background.png in Resources */,
+				3232BE041C5A70480002ECD3 /* background2.png in Resources */,
+				3238F8271C56985F00540189 /* sym00.png in Resources */,
+				3238F8251C56985F00540189 /* sym02.png in Resources */,
+				3238F8261C56985F00540189 /* sym01.png in Resources */,
+				3238F7EC1C56981B00540189 /* LaunchScreen.storyboard in Resources */,
+				3238F7E91C56981B00540189 /* Assets.xcassets in Resources */,
+				3238F81D1C56985F00540189 /* sym255.png in Resources */,
+				3238F7E71C56981B00540189 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3238F7F01C56981B00540189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3238F7FB1C56981B00540189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3238F7D51C56981B00540189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238F7E41C56981B00540189 /* ViewController.m in Sources */,
+				3238F7E11C56981B00540189 /* AppDelegate.m in Sources */,
+				3238F7DE1C56981B00540189 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3238F7EE1C56981B00540189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238F7F71C56981B00540189 /* Fm_Pattern_RecognitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3238F7F91C56981B00540189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238F8021C56981B00540189 /* Fm_Pattern_RecognitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3238F7F41C56981B00540189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3238F7D81C56981B00540189 /* Fm Pattern Recognition */;
+			targetProxy = 3238F7F31C56981B00540189 /* PBXContainerItemProxy */;
+		};
+		3238F7FF1C56981B00540189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3238F7D81C56981B00540189 /* Fm Pattern Recognition */;
+			targetProxy = 3238F7FE1C56981B00540189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3238F7E51C56981B00540189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3238F7E61C56981B00540189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3238F7EA1C56981B00540189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3238F7EB1C56981B00540189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3238F8041C56981B00540189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3238F8051C56981B00540189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3238F8071C56981B00540189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "Fm Pattern Recognition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.Fm-Pattern-Recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3238F8081C56981B00540189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Fm Pattern Recognition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.Fm-Pattern-Recognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3238F80A1C56981B00540189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fm Pattern RecognitionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.Fm-Pattern-RecognitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fm Pattern Recognition.app/Fm Pattern Recognition";
+			};
+			name = Debug;
+		};
+		3238F80B1C56981B00540189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fm Pattern RecognitionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.Fm-Pattern-RecognitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fm Pattern Recognition.app/Fm Pattern Recognition";
+			};
+			name = Release;
+		};
+		3238F80D1C56981B00540189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fm Pattern RecognitionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.Fm-Pattern-RecognitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fm Pattern Recognition";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3238F80E1C56981B00540189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fm Pattern RecognitionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.io-expert.com.Fm-Pattern-RecognitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fm Pattern Recognition";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3238F7D41C56981B00540189 /* Build configuration list for PBXProject "Fm Pattern Recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3238F8041C56981B00540189 /* Debug */,
+				3238F8051C56981B00540189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3238F8061C56981B00540189 /* Build configuration list for PBXNativeTarget "Fm Pattern Recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3238F8071C56981B00540189 /* Debug */,
+				3238F8081C56981B00540189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3238F8091C56981B00540189 /* Build configuration list for PBXNativeTarget "Fm Pattern RecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3238F80A1C56981B00540189 /* Debug */,
+				3238F80B1C56981B00540189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3238F80C1C56981B00540189 /* Build configuration list for PBXNativeTarget "Fm Pattern RecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3238F80D1C56981B00540189 /* Debug */,
+				3238F80E1C56981B00540189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3238F7D11C56981B00540189 /* Project object */;
+}

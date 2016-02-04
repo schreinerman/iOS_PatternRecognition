@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kPs-Tg-6I5"/>
+                        <viewControllerLayoutGuide type="bottom" id="NSO-O3-jMf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FjF-s1-sc6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Drj-zD-m6g">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.23289000146268682" green="0.30764933204309314" blue="0.55648723821989532" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2H3-b2-Adx" userLabel="View Main">
+                                <rect key="frame" x="140" y="71" width="320" height="458"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d99-BL-OKW">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="458"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wheelbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="fbV-rG-Hmw" userLabel="imgWheelbg">
+                                        <rect key="frame" x="5" y="14" width="312" height="308"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="1fp-eT-ZYV" userLabel="imgSymbol4">
+                                        <rect key="frame" x="195" y="414" width="33" height="33"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wheelbtm.png" translatesAutoresizingMaskIntoConstraints="NO" id="8aw-FD-hX4" userLabel="imgCursor">
+                                        <rect key="frame" x="-1" y="6" width="325" height="325"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="roF-jV-Ku7" userLabel="imgSymbol2">
+                                        <rect key="frame" x="131" y="414" width="33" height="33"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wheeltop.png" translatesAutoresizingMaskIntoConstraints="NO" id="S3f-uj-fgl" userLabel="imgWheeltop">
+                                        <rect key="frame" x="-2" y="6" width="325" height="325"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Qs-PW-TrW" userLabel="imgSymbol5">
+                                        <rect key="frame" x="227" y="414" width="33" height="33"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="2xE-eg-OrZ" userLabel="imgSymbol3">
+                                        <rect key="frame" x="163" y="414" width="33" height="33"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="J3F-Rs-4gr" userLabel="imgSymbol0">
+                                        <rect key="frame" x="68" y="414" width="33" height="33"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="dyt-q5-wyv" userLabel="imgSymbol7">
+                                        <rect key="frame" x="290" y="414" width="33" height="33"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="5N8-P6-4e6" userLabel="imgSymbol1">
+                                        <rect key="frame" x="100" y="414" width="33" height="33"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="PbT-Es-JuS" userLabel="imgSymbol6">
+                                        <rect key="frame" x="258" y="414" width="33" height="33"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sym00.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vxy-80-LPk" userLabel="imgLastFoundSymbol">
+                                        <rect key="frame" x="144" y="322" width="33" height="33"/>
+                                    </imageView>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Shl-Jg-Syn">
+                                        <rect key="frame" x="6" y="360" width="308" height="31"/>
+                                        <connections>
+                                            <action selector="sldrValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ikL-RZ-ier"/>
+                                        </connections>
+                                    </slider>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvC-ov-CIf">
+                                        <rect key="frame" x="221" y="238" width="73" height="57"/>
+                                        <connections>
+                                            <action selector="btnPosTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DfU-Id-DQ0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWU-0Z-8Hf">
+                                        <rect key="frame" x="115" y="0.0" width="86" height="61"/>
+                                        <connections>
+                                            <action selector="btnPosTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="6nG-e3-q6X"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bya-9Z-uhF">
+                                        <rect key="frame" x="-9" y="135" width="53" height="65"/>
+                                        <connections>
+                                            <action selector="btnPosTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iIB-L5-Mb0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4g-Ry-Kuf">
+                                        <rect key="frame" x="22" y="41" width="77" height="61"/>
+                                        <connections>
+                                            <action selector="btnPosTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="uES-ZX-sQG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPy-Mq-CNr">
+                                        <rect key="frame" x="23" y="238" width="71" height="57"/>
+                                        <connections>
+                                            <action selector="btnPosTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="3jG-P8-9eR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wbk-Fj-Lo6">
+                                        <rect key="frame" x="115" y="274" width="86" height="57"/>
+                                        <connections>
+                                            <action selector="btnPosTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="4XO-l1-IOV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Glb-x9-eYZ">
+                                        <rect key="frame" x="8" y="416" width="60" height="31"/>
+                                        <color key="backgroundColor" red="0.0" green="0.04617634437264205" blue="0.36426292539267013" alpha="0.24811613475177305" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Relearn"/>
+                                        <connections>
+                                            <action selector="btnRelearn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5o1-lb-Zti"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbq-aC-pOR">
+                                        <rect key="frame" x="265" y="130" width="64" height="76"/>
+                                        <connections>
+                                            <action selector="btnPosTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="1c9-Mt-PF5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BB-bS-ifk">
+                                        <rect key="frame" x="216" y="42" width="78" height="59"/>
+                                        <connections>
+                                            <action selector="btnPosTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="EEl-Ee-MKQ"/>
+                                        </connections>
+                                    </button>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="yh3-SR-gw8">
+                                        <rect key="frame" x="148" y="158" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speed: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekM-Cs-qcG" userLabel="lblSpeed">
+                                        <rect key="frame" x="8" y="387" width="156" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4OJ-Ub-KwX" userLabel="btnCapture">
+                                        <rect key="frame" x="138" y="323" width="46" height="30"/>
+                                        <connections>
+                                            <action selector="btnCaptureTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SbL-Wm-x2u"/>
+                                        </connections>
+                                    </button>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BT off, simulator mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Gr-3u-w9z" userLabel="simMode">
+                                        <rect key="frame" x="141" y="392" width="176" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.12253965599820571" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="458" id="iwT-c5-tEj"/>
+                                    <constraint firstAttribute="width" constant="320" id="p5H-Cx-2BQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2H3-b2-Adx" firstAttribute="centerX" secondItem="FjF-s1-sc6" secondAttribute="centerX" id="AdR-4b-bBx"/>
+                            <constraint firstItem="Drj-zD-m6g" firstAttribute="centerY" secondItem="2H3-b2-Adx" secondAttribute="centerY" id="VUB-0L-I3P"/>
+                            <constraint firstItem="Drj-zD-m6g" firstAttribute="centerX" secondItem="2H3-b2-Adx" secondAttribute="centerX" id="Zfa-2c-O4h"/>
+                            <constraint firstItem="2H3-b2-Adx" firstAttribute="centerY" secondItem="FjF-s1-sc6" secondAttribute="centerY" id="eMu-v9-Wp6"/>
+                            <constraint firstItem="2H3-b2-Adx" firstAttribute="leading" secondItem="FjF-s1-sc6" secondAttribute="leading" constant="140" id="i1e-pg-Auy"/>
+                            <constraint firstItem="Drj-zD-m6g" firstAttribute="leading" secondItem="FjF-s1-sc6" secondAttribute="leading" id="kXB-eO-26a"/>
+                            <constraint firstItem="Drj-zD-m6g" firstAttribute="bottom" secondItem="NSO-O3-jMf" secondAttribute="top" id="osq-5q-6oS"/>
+                            <constraint firstItem="2H3-b2-Adx" firstAttribute="top" secondItem="kPs-Tg-6I5" secondAttribute="bottom" constant="51" id="tIW-SK-Pxj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="i1e-pg-Auy"/>
+                                <exclude reference="tIW-SK-Pxj"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="YvC-3T-TT1" appends="YES" id="313-cf-gId"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="yh3-SR-gw8" id="oLr-ym-X68"/>
+                        <outlet property="imgCursor" destination="8aw-FD-hX4" id="DNg-V4-zsn"/>
+                        <outlet property="imgLastFoundSymbol" destination="Vxy-80-LPk" id="duR-CE-jaX"/>
+                        <outlet property="imgSymbol0" destination="J3F-Rs-4gr" id="xqd-Op-q7H"/>
+                        <outlet property="imgSymbol1" destination="5N8-P6-4e6" id="jth-Wa-2X3"/>
+                        <outlet property="imgSymbol2" destination="roF-jV-Ku7" id="pX3-LE-OgH"/>
+                        <outlet property="imgSymbol3" destination="2xE-eg-OrZ" id="diT-yL-lG5"/>
+                        <outlet property="imgSymbol4" destination="1fp-eT-ZYV" id="2SW-gw-meu"/>
+                        <outlet property="imgSymbol5" destination="0Qs-PW-TrW" id="Yao-8k-GPA"/>
+                        <outlet property="imgSymbol6" destination="PbT-Es-JuS" id="Q8Q-lD-ZAA"/>
+                        <outlet property="imgSymbol7" destination="dyt-q5-wyv" id="szG-bW-edN"/>
+                        <outlet property="imgWheelbg" destination="fbV-rG-Hmw" id="mE4-Wp-0Rk"/>
+                        <outlet property="imgWheeltop" destination="S3f-uj-fgl" id="OVd-3W-q0d"/>
+                        <outlet property="lblSpeed" destination="ekM-Cs-qcG" id="Bg4-sU-cfY"/>
+                        <outlet property="rotHandle" destination="YvC-3T-TT1" id="wtX-5a-2Rr"/>
+                        <outlet property="simMode" destination="9Gr-3u-w9z" id="Oq4-IB-bwa"/>
+                        <outlet property="sldrSpeed" destination="Shl-Jg-Syn" id="onh-rZ-wcj"/>
+                        <outlet property="swipeHandle" destination="Chc-gp-rVp" id="Gb3-l6-hyI"/>
+                        <outlet property="viewMain" destination="2H3-b2-Adx" id="yJO-MB-HQV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <rotationGestureRecognizer id="YvC-3T-TT1">
+                    <connections>
+                        <action selector="rotDone:" destination="BYZ-38-t0r" id="Ik7-Gd-3c1"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Chc-gp-rVp">
+                    <connections>
+                        <action selector="swipeChanged:" destination="BYZ-38-t0r" id="JZB-eR-621"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="15" y="381"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background2.png" width="2625" height="3940"/>
+        <image name="sym00.png" width="100" height="100"/>
+        <image name="wheelbg.png" width="500" height="500"/>
+        <image name="wheelbtm.png" width="500" height="500"/>
+        <image name="wheeltop.png" width="500" height="500"/>
+    </resources>
+</document>
