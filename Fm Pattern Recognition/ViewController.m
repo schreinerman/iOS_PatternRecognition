@@ -84,7 +84,10 @@
 {
     static volatile uint32_t subcounter = 0;
     subcounter++;
-    
+    if (self.discoveredPeripheral != nil)
+    {
+        [self.discoveredPeripheral readRSSI];
+    }
     if (SimulatorMode)
     {
         _viewMain.alpha = 1.0f;
@@ -127,6 +130,11 @@
             
                 // We're disconnected, so start scanning again
                 [self scan];
+        }
+        else
+        {
+            [self cleanup];
+            [self scan];
         }
     } else
     {
@@ -231,17 +239,29 @@
  */
 - (void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI
 {
+    
+
     // Reject any where the value is above reasonable range
-    /*if (RSSI.integerValue > -15) {
+    NSLog(@"Discovered %@ at %@", peripheral.name, RSSI);
+    
+    if ((RSSI.integerValue < 0) && (RSSI.integerValue > -127)) {
+        self.signalBar.progress = 1.0f * (127 + RSSI.integerValue)/127;
+    }
+    else
+    {
+        self.signalBar.progress = 0.0f;
+    }
+    
+    if (RSSI.integerValue > 0) {
      return;
-     }*/
+     }
     
     // Reject if the signal strength is too low to be close enough (Close is around -22dB)
-    /*if (RSSI.integerValue < -35) {
+    if (RSSI.integerValue < -60) {
      return;
-     }*/
+     }
+    
     connectTimeout = 5000;
-    NSLog(@"Discovered %@ at %@", peripheral.name, RSSI);
     
     NSString* sName = peripheral.name;
     
@@ -284,7 +304,15 @@
     // Make sure we get the discovery callbacks
     peripheral.delegate = self;
     
+    [self performSelector:@selector(delayedDiscoverServices:) withObject:peripheral afterDelay: 0.5];
+    [self performSelector:@selector(delayedDiscoverServices:) withObject:peripheral afterDelay: 1];
+    [self performSelector:@selector(delayedDiscoverServices:) withObject:peripheral afterDelay: 2];
     
+}
+
+-(void)delayedDiscoverServices:(CBPeripheral *)peripheral
+{
+    connectTimeout = 5000;
     if (peripheral.services)
     {
         [self peripheral:peripheral didDiscoverServices:nil];
@@ -294,12 +322,21 @@
         [peripheral discoverServices:nil];
         
         // Search only for services that match our UUID
-         //@[[CBUUID UUIDWithString:TRANSFER_SERVICE_TX_UUID],[CBUUID UUIDWithString:TRANSFER_SERVICE_RX_UUID]]];
+        //@[[CBUUID UUIDWithString:TRANSFER_SERVICE_TX_UUID],[CBUUID UUIDWithString:TRANSFER_SERVICE_RX_UUID]]];
         //[peripheral discoverServices] //@[[CBUUID UUIDWithString:TRANSFER_SERVICE_RX_UUID]]];
     }
-    
 }
 
+-(void)peripheral:(CBPeripheral *)peripheral didReadRSSI:(NSNumber *)RSSI error:(NSError *)error
+{
+    if ((RSSI.integerValue < 0) && (RSSI.integerValue > -127)) {
+        self.signalBar.progress = 1.0f * (127 + RSSI.integerValue)/127;
+    }
+    else
+    {
+        self.signalBar.progress = 0.0f;
+    }
+}
 
 /** The Transfer Service was discovered
  */
@@ -381,7 +418,7 @@
     }
     // Once this is complete, we just need to wait for the data to come in.
 }
-
+         
 
 /** This callback lets us know more data has arrived via notification on the characteristic
  */
@@ -434,6 +471,8 @@
         [self processRxLastFoundSymbol:(int)[[array valueForKey: @"sf"] integerValue]];
     
         [self processRxWheelSpeed:(int)[[array valueForKey: @"wr"] integerValue]];
+        
+        [self processRxMotorMode:(int)[[array valueForKey: @"mm"] integerValue]];
     
         [self processRxWheelAngle:(int)[[array valueForKey: @"wa"] integerValue]];
     
@@ -496,6 +535,18 @@
     NSLog(@"Blablub %@",[error localizedDescription]);
 }
 
+- (void)processRxMotorMode:(int) mode
+{
+    if (mode == 1)
+    {
+        self.motorSwitch.on = 1;
+    }
+    else
+    {
+        self.motorSwitch.on = 0;
+    }
+}
+
 - (void)processRxWheelSpeed:(int) speed
 {
     _sldrSpeed.value = 1.0f * speed / 20;
@@ -556,7 +607,7 @@
 {
     for(int i = 0;i < 8;i++)
     {
-        int sym = [symarray[i] integerValue];
+        int sym = (int)[symarray[i] integerValue];
         NSString* strSym;
         if (sym < 10)
         {
@@ -725,6 +776,10 @@
 
 
 
+
+- (IBAction)motorSwitchTouched:(id)sender {
+    [self sendString:[NSString stringWithFormat:@"SetMode=%i\r",self.motorSwitch.on]];
+}
 
 - (IBAction)swipeChanged:(id)sender {
     if (_swipeHandle.direction == UISwipeGestureRecognizerDirectionRight)

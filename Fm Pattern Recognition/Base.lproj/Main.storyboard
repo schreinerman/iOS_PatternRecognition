@@ -146,6 +146,23 @@
                                         <color key="textColor" red="1" green="0.0" blue="0.12253965599820571" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54a-lP-2sa" userLabel="motorSwitch">
+                                        <rect key="frame" x="258" y="324" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="motorSwitchTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rng-gn-kYi"/>
+                                        </connections>
+                                    </switch>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Motor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljj-q4-LAo">
+                                        <rect key="frame" x="195" y="331" width="55" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="47" placeholderIntrinsicHeight="2" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ik5-fg-nEF" userLabel="signal">
+                                        <rect key="frame" x="260" y="10" width="47" height="3"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.045792666795593351" green="0.8696212369109948" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </progressView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="458" id="iwT-c5-tEj"/>
@@ -190,7 +207,9 @@
                         <outlet property="imgWheelbg" destination="fbV-rG-Hmw" id="mE4-Wp-0Rk"/>
                         <outlet property="imgWheeltop" destination="S3f-uj-fgl" id="OVd-3W-q0d"/>
                         <outlet property="lblSpeed" destination="ekM-Cs-qcG" id="Bg4-sU-cfY"/>
+                        <outlet property="motorSwitch" destination="54a-lP-2sa" id="9zS-UH-wQb"/>
                         <outlet property="rotHandle" destination="YvC-3T-TT1" id="wtX-5a-2Rr"/>
+                        <outlet property="signalBar" destination="Ik5-fg-nEF" id="OFu-Yc-4EU"/>
                         <outlet property="simMode" destination="9Gr-3u-w9z" id="Oq4-IB-bwa"/>
                         <outlet property="sldrSpeed" destination="Shl-Jg-Syn" id="onh-rZ-wcj"/>
                         <outlet property="swipeHandle" destination="Chc-gp-rVp" id="Gb3-l6-hyI"/>

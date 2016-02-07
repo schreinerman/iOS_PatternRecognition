@@ -16,9 +16,12 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (weak, nonatomic) IBOutlet UILabel *simMode;
 
+@property (weak, nonatomic) IBOutlet UIProgressView *signalBar;
 
 @property (weak, nonatomic) IBOutlet UIView *viewMain;
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *swipeHandle;
+- (IBAction)motorSwitchTouched:(id)sender;
+@property (weak, nonatomic) IBOutlet UISwitch *motorSwitch;
 
 - (IBAction)swipeChanged:(id)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *imgCursor;
